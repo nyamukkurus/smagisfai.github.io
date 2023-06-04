@@ -1,0 +1,155 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.logo-item {
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-gallery {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.text-container {
+    margin-top: 20px;
+}
+
+h2,h3 {
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+}
+
+.admin-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.admin-container p {
+    margin-right: 5px;
+}
+
+.admin-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.box {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.box img {
+    width: 40px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.box a {
+    display: flex;
+    align-items: center;
+}
+
+.box a img {
+    margin-right: 150px;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+.box a span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.linktree {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.linktree h2,
+.linktree h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: 0.3 ease;
+}
+
+a:hover {
+    color: grey;
+    transition: 3s ;
+    transform: translateX(10px);
+}
